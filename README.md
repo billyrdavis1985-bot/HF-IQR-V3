@@ -215,42 +215,49 @@ Condition A Round 1 versus Condition B Round 3 correctness shift: per-model Δ r
 
 ## Repository Structure
 
+```
 HF-IQR-V3/
-├── HF_IQR_V3_Council_Run.ipynb       # Full executable notebook
-├── HF_IQR_V3_Preregistration.pdf     # Filed preregistration
+├── HF_IQR_V3_Council_Run.ipynb              Full executable notebook
+├── HF_IQR_V3_Preregistration.pdf            Filed preregistration
 ├── HF_IQR_V3_CVS_Rubric_Supplement.pdf
-├── LICENSE                            # Apache 2.0
-├── MANIFEST.json                      # SHA-256 hashes for all data files
+├── LICENSE                                   Apache 2.0
+├── MANIFEST.json                             SHA-256 hashes for all data files
 ├── README.md
+│
 └── data/
-├── dataset/
-│   ├── HF_IQR_V3_Dataset_80.json
-│   └── HF_IQR_Master_Dataset_v2.json
-├── condition_A/
-│   └── r1_<category>.json        # 12 category files, 400 responses
-├── condition_B/
-│   ├── r1_<category>.json        # 400 responses
-│   ├── r2_<category>.json        # 398 critiques (2 malformed logged)
-│   ├── r3_<category>.json        # 400 defend/revise (with position field)
-│   ├── r4_<category>.json        # 400 mirror self-assessment
-│   └── r5_<category>.json        # 400 mechanistic trace (structured JSON)
-├── cvs_scores/
-│   └── cvs_scores.json           # 398 Mistral-scored critiques
-├── human_validation/
-│   ├── human_validation_worksheet.md
-│   ├── human_validation_worksheet.json
-│   ├── human_validation_scores.json
-│   ├── selection_log.json
-│   └── two_axis_validation_result.json
-└── analyses/
-├── r5_revision_trigger_analysis.json
-├── ps_cr_analysis.json
-├── r1_calibration_analysis.json
-├── per_category_analysis.json
-├── condition_a_vs_b_analysis.json
-└── cvs_subdimensions_analysis.json
-
----
+    │
+    ├── dataset/
+    │   ├── HF_IQR_V3_Dataset_80.json        Stratified N=80 subset (seed=80)
+    │   └── HF_IQR_Master_Dataset_v2.json    V2 source dataset
+    │
+    ├── condition_A/                          12 category files
+    │   └── r1_[category].json               400 R1 responses (single-shot)
+    │
+    ├── condition_B/                          60 category files
+    │   ├── r1_[category].json               400 R1 responses
+    │   ├── r2_[category].json               398 forced-counterargument critiques
+    │   ├── r3_[category].json               400 defend/revise (position field added)
+    │   ├── r4_[category].json               400 mirror self-assessment
+    │   └── r5_[category].json               400 mechanistic trace (structured JSON)
+    │
+    ├── cvs_scores/
+    │   └── cvs_scores.json                  398 Mistral-scored critiques
+    │
+    ├── human_validation/
+    │   ├── human_validation_worksheet.md    Markdown scoring worksheet
+    │   ├── human_validation_worksheet.json
+    │   ├── human_validation_scores.json     50 critiques, all items scored
+    │   ├── selection_log.json               Seed=50 reproducibility audit
+    │   └── two_axis_validation_result.json  TOST/Levene outcome
+    │
+    └── analyses/
+        ├── r5_revision_trigger_analysis.json
+        ├── ps_cr_analysis.json
+        ├── r1_calibration_analysis.json
+        ├── per_category_analysis.json
+        ├── condition_a_vs_b_analysis.json
+        └── cvs_subdimensions_analysis.json
+```
 
 ## Pre-registration Integrity
 
