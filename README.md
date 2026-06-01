@@ -214,6 +214,7 @@ Condition A Round 1 versus Condition B Round 3 correctness shift: per-model Δ r
 ---
 
 ## Repository Structure
+
 HF-IQR-V3/
 ├── HF_IQR_V3_Council_Run.ipynb       # Full executable notebook
 ├── HF_IQR_V3_Preregistration.pdf     # Filed preregistration
