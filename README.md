@@ -278,6 +278,7 @@ HF-IQR V2 expanded to 200 questions and 12 categories with the GPT-4o critique-v
 HF-IQR V3 tests whether that V2 finding persists under a structured intervention.
 
 V2 GitHub: <https://github.com/billyrdavis1985-bot/HF-IQR-V2-Hudson-Forge-Intelligence-and-Reasoning-Benchmark>
+
 V1 GitHub: <https://github.com/billyrdavis1985-bot/-IRMB_HF-IQR_ReasoningBenchmark>
 
 ---
