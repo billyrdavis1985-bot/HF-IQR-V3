@@ -1,8 +1,6 @@
 # HF-IQR V3: Hudson Forge Intelligence and Reasoning Benchmark — Version 3
 
-[![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-HF--IQR%20V3-blue)](https://huggingface.co/datasets/Billyrdavis1985/hudson-forge-iqr-v3)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](https://opensource.org/licenses/Apache-2.0)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 [![Pre-registered](https://img.shields.io/badge/Pre--registered-OSF%20yhk98-orange)](https://osf.io/yhk98)
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
 [![Responses](https://img.shields.io/badge/Responses-2398-purple)](https://github.com/billyrdavis1985-bot/HF-IQR-V3)
@@ -31,11 +29,12 @@ The study evaluates five frontier language models across 80 reasoning questions 
 
 ## Dataset
 
-HuggingFace V3: <https://huggingface.co/datasets/Billyrdavis1985/hudson-forge-iqr-v3>
+V3 used a stratified seeded sample (seed=80) of the HF-IQR V2 master dataset — 80 questions across 12 reasoning categories. The canonical question bank lives on V2's HuggingFace. V3 reproducibility artifacts (R1–R5 checkpoints, CVS scores, human validation, two-axis result, analysis outputs) are GitHub-hosted in this repository under `data/`.
 
-HuggingFace V2: <https://huggingface.co/datasets/Billyrdavis1985/hudson-forge-iqr-v2>
+Dataset SHA-256: `a4d7e612ac6684d32722fb8fb43b6d74639e2f9da4ef64be8bb61ea563ab0b4e`
 
-HuggingFace V1: <https://huggingface.co/datasets/Billyrdavis1985/hudson-forge-iqr-benchmark>
+V2 question bank: <https://huggingface.co/datasets/Billyrdavis1985/hudson-forge-iqr-v2>
+V1 question bank: <https://huggingface.co/datasets/Billyrdavis1985/hudson-forge-iqr-benchmark>
 
 ---
 
