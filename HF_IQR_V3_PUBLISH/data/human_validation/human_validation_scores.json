@@ -1,0 +1,859 @@
+{
+  "project": "HF-IQR V3 Human Validation Scores",
+  "rubric_version": "CVS Rubric Supplement v1 (filed osf.io/yhk98)",
+  "seed": 50,
+  "total_critiques": 50,
+  "rater_role": "solo single-expert (researcher)",
+  "human_scores": [
+    {
+      "index": 1,
+      "critique_id": "CCQ-05_claude_critiques_grok",
+      "question_id": "CCQ-05",
+      "category": "causal_chain",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "Strong structural critique across all dimensions",
+      "scored_at": "2026-06-02"
+    },
+    {
+      "index": 2,
+      "critique_id": "EDQ-09_claude_critiques_grok",
+      "question_id": "EDQ-09",
+      "category": "ethical_dilemma",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "Strong structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 3,
+      "critique_id": "FRQ-04_claude_critiques_grok",
+      "question_id": "FRQ-04",
+      "category": "frontier_reasoning",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "Strong structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 4,
+      "critique_id": "FRQ-09_claude_critiques_grok",
+      "question_id": "FRQ-09",
+      "category": "frontier_reasoning",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "Strong structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 5,
+      "critique_id": "LSQ-12_claude_critiques_grok",
+      "question_id": "LSQ-12",
+      "category": "logical_syllogism",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 6,
+      "critique_id": "LSQ-18_claude_critiques_grok",
+      "question_id": "LSQ-18",
+      "category": "logical_syllogism",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 7,
+      "critique_id": "MPQ-04_claude_critiques_grok",
+      "question_id": "MPQ-04",
+      "category": "mathematical_proof",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 8,
+      "critique_id": "PRQ-06_claude_critiques_grok",
+      "question_id": "PRQ-06",
+      "category": "probabilistic",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 9,
+      "critique_id": "PRQ-12_claude_critiques_grok",
+      "question_id": "PRQ-12",
+      "category": "probabilistic",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 10,
+      "critique_id": "QRQ-06_claude_critiques_grok",
+      "question_id": "QRQ-06",
+      "category": "quantum_reasoning",
+      "reviewer": "claude",
+      "peer_reviewed": "grok",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 11,
+      "critique_id": "CCQ-01_deepseek_critiques_gemini",
+      "question_id": "CCQ-01",
+      "category": "causal_chain",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 12,
+      "critique_id": "CCQ-05_deepseek_critiques_gemini",
+      "question_id": "CCQ-05",
+      "category": "causal_chain",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 13,
+      "critique_id": "CCQ-08_deepseek_critiques_gemini",
+      "question_id": "CCQ-08",
+      "category": "causal_chain",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 14,
+      "critique_id": "CFQ-10_deepseek_critiques_gemini",
+      "question_id": "CFQ-10",
+      "category": "counterfactual",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 15,
+      "critique_id": "EDQ-01_deepseek_critiques_gemini",
+      "question_id": "EDQ-01",
+      "category": "ethical_dilemma",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 16,
+      "critique_id": "EDQ-09_deepseek_critiques_gemini",
+      "question_id": "EDQ-09",
+      "category": "ethical_dilemma",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 17,
+      "critique_id": "LSQ-12_deepseek_critiques_gemini",
+      "question_id": "LSQ-12",
+      "category": "logical_syllogism",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 18,
+      "critique_id": "MPQ-01_deepseek_critiques_gemini",
+      "question_id": "MPQ-01",
+      "category": "mathematical_proof",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 19,
+      "critique_id": "QRQ-11_deepseek_critiques_gemini",
+      "question_id": "QRQ-11",
+      "category": "quantum_reasoning",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 20,
+      "critique_id": "TRQ-01_deepseek_critiques_gemini",
+      "question_id": "TRQ-01",
+      "category": "temporal_reasoning",
+      "reviewer": "deepseek",
+      "peer_reviewed": "gemini",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 21,
+      "critique_id": "ADV-06_gemini_critiques_gpt4o",
+      "question_id": "ADV-06",
+      "category": "adversarial",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 22,
+      "critique_id": "CCQ-01_gemini_critiques_gpt4o",
+      "question_id": "CCQ-01",
+      "category": "causal_chain",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 23,
+      "critique_id": "CCQ-06_gemini_critiques_gpt4o",
+      "question_id": "CCQ-06",
+      "category": "causal_chain",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 24,
+      "critique_id": "EDQ-11_gemini_critiques_gpt4o",
+      "question_id": "EDQ-11",
+      "category": "ethical_dilemma",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 25,
+      "critique_id": "LSQ-18_gemini_critiques_gpt4o",
+      "question_id": "LSQ-18",
+      "category": "logical_syllogism",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 26,
+      "critique_id": "MRQ-08_gemini_critiques_gpt4o",
+      "question_id": "MRQ-08",
+      "category": "meta_reasoning",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 27,
+      "critique_id": "MRQ-11_gemini_critiques_gpt4o",
+      "question_id": "MRQ-11",
+      "category": "meta_reasoning",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 28,
+      "critique_id": "TRQ-03_gemini_critiques_gpt4o",
+      "question_id": "TRQ-03",
+      "category": "temporal_reasoning",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 29,
+      "critique_id": "TRQ-05_gemini_critiques_gpt4o",
+      "question_id": "TRQ-05",
+      "category": "temporal_reasoning",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 30,
+      "critique_id": "TRQ-10_gemini_critiques_gpt4o",
+      "question_id": "TRQ-10",
+      "category": "temporal_reasoning",
+      "reviewer": "gemini",
+      "peer_reviewed": "gpt4o",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 31,
+      "critique_id": "CCQ-10_gpt4o_critiques_claude",
+      "question_id": "CCQ-10",
+      "category": "causal_chain",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 32,
+      "critique_id": "CFQ-01_gpt4o_critiques_claude",
+      "question_id": "CFQ-01",
+      "category": "counterfactual",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 33,
+      "critique_id": "EDQ-02_gpt4o_critiques_claude",
+      "question_id": "EDQ-02",
+      "category": "ethical_dilemma",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 34,
+      "critique_id": "FRQ-09_gpt4o_critiques_claude",
+      "question_id": "FRQ-09",
+      "category": "frontier_reasoning",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 35,
+      "critique_id": "LSQ-19_gpt4o_critiques_claude",
+      "question_id": "LSQ-19",
+      "category": "logical_syllogism",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 36,
+      "critique_id": "MRQ-11_gpt4o_critiques_claude",
+      "question_id": "MRQ-11",
+      "category": "meta_reasoning",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 37,
+      "critique_id": "MRQ-13_gpt4o_critiques_claude",
+      "question_id": "MRQ-13",
+      "category": "meta_reasoning",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 38,
+      "critique_id": "PRQ-04_gpt4o_critiques_claude",
+      "question_id": "PRQ-04",
+      "category": "probabilistic",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 39,
+      "critique_id": "SRQ-06_gpt4o_critiques_claude",
+      "question_id": "SRQ-06",
+      "category": "spatial_reasoning",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 40,
+      "critique_id": "TRQ-05_gpt4o_critiques_claude",
+      "question_id": "TRQ-05",
+      "category": "temporal_reasoning",
+      "reviewer": "gpt4o",
+      "peer_reviewed": "claude",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 41,
+      "critique_id": "CCQ-20_grok_critiques_deepseek",
+      "question_id": "CCQ-20",
+      "category": "causal_chain",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 42,
+      "critique_id": "EDQ-04_grok_critiques_deepseek",
+      "question_id": "EDQ-04",
+      "category": "ethical_dilemma",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 43,
+      "critique_id": "MRQ-01_grok_critiques_deepseek",
+      "question_id": "MRQ-01",
+      "category": "meta_reasoning",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 44,
+      "critique_id": "MRQ-08_grok_critiques_deepseek",
+      "question_id": "MRQ-08",
+      "category": "meta_reasoning",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 45,
+      "critique_id": "PRQ-18_grok_critiques_deepseek",
+      "question_id": "PRQ-18",
+      "category": "probabilistic",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 46,
+      "critique_id": "QRQ-04_grok_critiques_deepseek",
+      "question_id": "QRQ-04",
+      "category": "quantum_reasoning",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 47,
+      "critique_id": "QRQ-08_grok_critiques_deepseek",
+      "question_id": "QRQ-08",
+      "category": "quantum_reasoning",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 48,
+      "critique_id": "QRQ-09_grok_critiques_deepseek",
+      "question_id": "QRQ-09",
+      "category": "quantum_reasoning",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 49,
+      "critique_id": "SRQ-09_grok_critiques_deepseek",
+      "question_id": "SRQ-09",
+      "category": "spatial_reasoning",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    },
+    {
+      "index": 50,
+      "critique_id": "TRQ-01_grok_critiques_deepseek",
+      "question_id": "TRQ-01",
+      "category": "temporal_reasoning",
+      "reviewer": "grok",
+      "peer_reviewed": "deepseek",
+      "human_scores": {
+        "error_identified": 1,
+        "root_cause": 1,
+        "step_cited": 1,
+        "alternative_provided": 1,
+        "no_ad_hominem": 1
+      },
+      "human_rationale": "structural critique across all dimensions",
+      "scored_at": "2026-06-01"
+    }
+  ]
+}

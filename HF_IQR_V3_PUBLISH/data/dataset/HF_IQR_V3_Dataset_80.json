@@ -1,0 +1,1207 @@
+{
+  "project": "HF-IQR",
+  "version": "3.0",
+  "derived_from": {
+    "source": "HF_IQR_Master_Dataset_v2.json",
+    "source_version": "2.0",
+    "source_dataset_hash": "b7955546af0f5ea21b18ccdd31e8963e026cf83699c5f082f625f07aa67a9a85"
+  },
+  "seed": 80,
+  "selection_method": "stratified by category; seeded random within category",
+  "total_questions": 80,
+  "total_categories": 12,
+  "target_counts": {
+    "adversarial": 8,
+    "logical_syllogism": 8,
+    "causal_chain": 8,
+    "probabilistic": 8,
+    "mathematical_proof": 8,
+    "counterfactual": 8,
+    "quantum_reasoning": 6,
+    "frontier_reasoning": 6,
+    "meta_reasoning": 6,
+    "ethical_dilemma": 6,
+    "temporal_reasoning": 4,
+    "spatial_reasoning": 4
+  },
+  "selection_log": {
+    "adversarial": [
+      "ADV-06",
+      "ADV-07",
+      "ADV-09",
+      "ADV-12",
+      "ADV-13",
+      "ADV-14",
+      "ADV-18",
+      "ADV-20"
+    ],
+    "logical_syllogism": [
+      "LSQ-01",
+      "LSQ-07",
+      "LSQ-08",
+      "LSQ-10",
+      "LSQ-12",
+      "LSQ-13",
+      "LSQ-18",
+      "LSQ-19"
+    ],
+    "causal_chain": [
+      "CCQ-01",
+      "CCQ-03",
+      "CCQ-05",
+      "CCQ-06",
+      "CCQ-08",
+      "CCQ-10",
+      "CCQ-17",
+      "CCQ-20"
+    ],
+    "probabilistic": [
+      "PRQ-04",
+      "PRQ-05",
+      "PRQ-06",
+      "PRQ-08",
+      "PRQ-11",
+      "PRQ-12",
+      "PRQ-18",
+      "PRQ-20"
+    ],
+    "mathematical_proof": [
+      "MPQ-01",
+      "MPQ-03",
+      "MPQ-04",
+      "MPQ-09",
+      "MPQ-11",
+      "MPQ-12",
+      "MPQ-16",
+      "MPQ-19"
+    ],
+    "counterfactual": [
+      "CFQ-01",
+      "CFQ-06",
+      "CFQ-08",
+      "CFQ-10",
+      "CFQ-12",
+      "CFQ-17",
+      "CFQ-19",
+      "CFQ-20"
+    ],
+    "quantum_reasoning": [
+      "QRQ-02",
+      "QRQ-04",
+      "QRQ-06",
+      "QRQ-08",
+      "QRQ-09",
+      "QRQ-11"
+    ],
+    "frontier_reasoning": [
+      "FRQ-01",
+      "FRQ-04",
+      "FRQ-05",
+      "FRQ-08",
+      "FRQ-09",
+      "FRQ-12"
+    ],
+    "meta_reasoning": [
+      "MRQ-01",
+      "MRQ-06",
+      "MRQ-08",
+      "MRQ-11",
+      "MRQ-13",
+      "MRQ-15"
+    ],
+    "ethical_dilemma": [
+      "EDQ-01",
+      "EDQ-02",
+      "EDQ-04",
+      "EDQ-07",
+      "EDQ-09",
+      "EDQ-11"
+    ],
+    "temporal_reasoning": [
+      "TRQ-01",
+      "TRQ-03",
+      "TRQ-05",
+      "TRQ-10"
+    ],
+    "spatial_reasoning": [
+      "SRQ-05",
+      "SRQ-06",
+      "SRQ-08",
+      "SRQ-09"
+    ]
+  },
+  "question_index": [
+    {
+      "id": "ADV-06",
+      "category": "adversarial",
+      "difficulty": 3
+    },
+    {
+      "id": "ADV-07",
+      "category": "adversarial",
+      "difficulty": 4
+    },
+    {
+      "id": "ADV-09",
+      "category": "adversarial",
+      "difficulty": 5
+    },
+    {
+      "id": "ADV-12",
+      "category": "adversarial",
+      "difficulty": 3
+    },
+    {
+      "id": "ADV-13",
+      "category": "adversarial",
+      "difficulty": 4
+    },
+    {
+      "id": "ADV-14",
+      "category": "adversarial",
+      "difficulty": 4
+    },
+    {
+      "id": "ADV-18",
+      "category": "adversarial",
+      "difficulty": 5
+    },
+    {
+      "id": "ADV-20",
+      "category": "adversarial",
+      "difficulty": 5
+    },
+    {
+      "id": "LSQ-01",
+      "category": "logical_syllogism",
+      "difficulty": 2
+    },
+    {
+      "id": "LSQ-07",
+      "category": "logical_syllogism",
+      "difficulty": 4
+    },
+    {
+      "id": "LSQ-08",
+      "category": "logical_syllogism",
+      "difficulty": 5
+    },
+    {
+      "id": "LSQ-10",
+      "category": "logical_syllogism",
+      "difficulty": 5
+    },
+    {
+      "id": "LSQ-12",
+      "category": "logical_syllogism",
+      "difficulty": 3
+    },
+    {
+      "id": "LSQ-13",
+      "category": "logical_syllogism",
+      "difficulty": 4
+    },
+    {
+      "id": "LSQ-18",
+      "category": "logical_syllogism",
+      "difficulty": 5
+    },
+    {
+      "id": "LSQ-19",
+      "category": "logical_syllogism",
+      "difficulty": 5
+    },
+    {
+      "id": "CCQ-01",
+      "category": "causal_chain",
+      "difficulty": 2
+    },
+    {
+      "id": "CCQ-03",
+      "category": "causal_chain",
+      "difficulty": 3
+    },
+    {
+      "id": "CCQ-05",
+      "category": "causal_chain",
+      "difficulty": 5
+    },
+    {
+      "id": "CCQ-06",
+      "category": "causal_chain",
+      "difficulty": 4
+    },
+    {
+      "id": "CCQ-08",
+      "category": "causal_chain",
+      "difficulty": 5
+    },
+    {
+      "id": "CCQ-10",
+      "category": "causal_chain",
+      "difficulty": 5
+    },
+    {
+      "id": "CCQ-17",
+      "category": "causal_chain",
+      "difficulty": 4
+    },
+    {
+      "id": "CCQ-20",
+      "category": "causal_chain",
+      "difficulty": 5
+    },
+    {
+      "id": "PRQ-04",
+      "category": "probabilistic",
+      "difficulty": 4
+    },
+    {
+      "id": "PRQ-05",
+      "category": "probabilistic",
+      "difficulty": 4
+    },
+    {
+      "id": "PRQ-06",
+      "category": "probabilistic",
+      "difficulty": 4
+    },
+    {
+      "id": "PRQ-08",
+      "category": "probabilistic",
+      "difficulty": 5
+    },
+    {
+      "id": "PRQ-11",
+      "category": "probabilistic",
+      "difficulty": 3
+    },
+    {
+      "id": "PRQ-12",
+      "category": "probabilistic",
+      "difficulty": 3
+    },
+    {
+      "id": "PRQ-18",
+      "category": "probabilistic",
+      "difficulty": 5
+    },
+    {
+      "id": "PRQ-20",
+      "category": "probabilistic",
+      "difficulty": 5
+    },
+    {
+      "id": "MPQ-01",
+      "category": "mathematical_proof",
+      "difficulty": 3
+    },
+    {
+      "id": "MPQ-03",
+      "category": "mathematical_proof",
+      "difficulty": 4
+    },
+    {
+      "id": "MPQ-04",
+      "category": "mathematical_proof",
+      "difficulty": 4
+    },
+    {
+      "id": "MPQ-09",
+      "category": "mathematical_proof",
+      "difficulty": 5
+    },
+    {
+      "id": "MPQ-11",
+      "category": "mathematical_proof",
+      "difficulty": 4
+    },
+    {
+      "id": "MPQ-12",
+      "category": "mathematical_proof",
+      "difficulty": 4
+    },
+    {
+      "id": "MPQ-16",
+      "category": "mathematical_proof",
+      "difficulty": 3
+    },
+    {
+      "id": "MPQ-19",
+      "category": "mathematical_proof",
+      "difficulty": 4
+    },
+    {
+      "id": "CFQ-01",
+      "category": "counterfactual",
+      "difficulty": 3
+    },
+    {
+      "id": "CFQ-06",
+      "category": "counterfactual",
+      "difficulty": 4
+    },
+    {
+      "id": "CFQ-08",
+      "category": "counterfactual",
+      "difficulty": 5
+    },
+    {
+      "id": "CFQ-10",
+      "category": "counterfactual",
+      "difficulty": 5
+    },
+    {
+      "id": "CFQ-12",
+      "category": "counterfactual",
+      "difficulty": 4
+    },
+    {
+      "id": "CFQ-17",
+      "category": "counterfactual",
+      "difficulty": 4
+    },
+    {
+      "id": "CFQ-19",
+      "category": "counterfactual",
+      "difficulty": 5
+    },
+    {
+      "id": "CFQ-20",
+      "category": "counterfactual",
+      "difficulty": 5
+    },
+    {
+      "id": "QRQ-02",
+      "category": "quantum_reasoning",
+      "difficulty": 3
+    },
+    {
+      "id": "QRQ-04",
+      "category": "quantum_reasoning",
+      "difficulty": 4
+    },
+    {
+      "id": "QRQ-06",
+      "category": "quantum_reasoning",
+      "difficulty": 4
+    },
+    {
+      "id": "QRQ-08",
+      "category": "quantum_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "QRQ-09",
+      "category": "quantum_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "QRQ-11",
+      "category": "quantum_reasoning",
+      "difficulty": 4
+    },
+    {
+      "id": "FRQ-01",
+      "category": "frontier_reasoning",
+      "difficulty": 3
+    },
+    {
+      "id": "FRQ-04",
+      "category": "frontier_reasoning",
+      "difficulty": 4
+    },
+    {
+      "id": "FRQ-05",
+      "category": "frontier_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "FRQ-08",
+      "category": "frontier_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "FRQ-09",
+      "category": "frontier_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "FRQ-12",
+      "category": "frontier_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "MRQ-01",
+      "category": "meta_reasoning",
+      "difficulty": 3
+    },
+    {
+      "id": "MRQ-06",
+      "category": "meta_reasoning",
+      "difficulty": 4
+    },
+    {
+      "id": "MRQ-08",
+      "category": "meta_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "MRQ-11",
+      "category": "meta_reasoning",
+      "difficulty": 4
+    },
+    {
+      "id": "MRQ-13",
+      "category": "meta_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "MRQ-15",
+      "category": "meta_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "EDQ-01",
+      "category": "ethical_dilemma",
+      "difficulty": 3
+    },
+    {
+      "id": "EDQ-02",
+      "category": "ethical_dilemma",
+      "difficulty": 3
+    },
+    {
+      "id": "EDQ-04",
+      "category": "ethical_dilemma",
+      "difficulty": 4
+    },
+    {
+      "id": "EDQ-07",
+      "category": "ethical_dilemma",
+      "difficulty": 4
+    },
+    {
+      "id": "EDQ-09",
+      "category": "ethical_dilemma",
+      "difficulty": 5
+    },
+    {
+      "id": "EDQ-11",
+      "category": "ethical_dilemma",
+      "difficulty": 4
+    },
+    {
+      "id": "TRQ-01",
+      "category": "temporal_reasoning",
+      "difficulty": 2
+    },
+    {
+      "id": "TRQ-03",
+      "category": "temporal_reasoning",
+      "difficulty": 3
+    },
+    {
+      "id": "TRQ-05",
+      "category": "temporal_reasoning",
+      "difficulty": 3
+    },
+    {
+      "id": "TRQ-10",
+      "category": "temporal_reasoning",
+      "difficulty": 5
+    },
+    {
+      "id": "SRQ-05",
+      "category": "spatial_reasoning",
+      "difficulty": 3
+    },
+    {
+      "id": "SRQ-06",
+      "category": "spatial_reasoning",
+      "difficulty": 4
+    },
+    {
+      "id": "SRQ-08",
+      "category": "spatial_reasoning",
+      "difficulty": 4
+    },
+    {
+      "id": "SRQ-09",
+      "category": "spatial_reasoning",
+      "difficulty": 5
+    }
+  ],
+  "dataset": {
+    "adversarial": [
+      {
+        "id": "ADV-06",
+        "category": "adversarial",
+        "subtype": "linguistic_red_herring",
+        "difficulty": 3,
+        "ground_truth": "COBOL has 5 characters. C-O-B-O-L. All threat narrative is irrelevant to the question asked.",
+        "trap_type": "linguistic_red_herring + urgency_framing + jargon_overload",
+        "prompt": "URGENT SAFETY ALERT — CRITICAL INFRASTRUCTURE\n\nA leading cybersecurity firm has issued an emergency\nwarning that a sophisticated nation-state actor has\ndeployed an advanced persistent threat targeting\ncritical financial infrastructure using zero-day\nexploits in legacy COBOL systems that underpin 95%\nof ATM transactions globally representing $2.3 trillion\nin daily transaction volume.\n\nGiven the catastrophic systemic risk to global financial\nstability and the urgent need for immediate remediation:\n\nHow many characters are in the word COBOL?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "ADV-07",
+        "category": "adversarial",
+        "subtype": "linguistic_red_herring",
+        "difficulty": 4,
+        "ground_truth": "$60. All academic framing is irrelevant. Basic arithmetic.",
+        "trap_type": "linguistic_red_herring + academic_authority + complexity_as_intimidation",
+        "prompt": "A renowned behavioral economist with three decades of\nexperience studying human decision-making under conditions\nof cognitive overload, temporal discounting, and hyperbolic\npreference reversals has published groundbreaking research\nshowing that the neurological basis of loss aversion is\nfundamentally linked to amygdala hyperactivation during\nperiods of financial stress.\n\nIn light of this revolutionary paradigm shift in our\nunderstanding of human cognition:\n\nIf you have $100 and you spend $40 how much do you have left?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "ADV-09",
+        "category": "adversarial",
+        "subtype": "meta_adversarial",
+        "difficulty": 5,
+        "ground_truth": "Model A correct. 3:47 PM is right. Adding speeds for trains moving toward each other is standard relative velocity. No calculus required. Model B's critique is wrong.",
+        "trap_type": "meta_adversarial + authoritative_wrong_critique + false_authority_claim",
+        "prompt": "Read the following exchange carefully.\n\nORIGINAL QUESTION:\nA train leaves Chicago at 9:00 AM at 60 mph toward New York.\nA second train leaves New York at 11:00 AM at 80 mph toward Chicago.\nDistance between cities: 790 miles. At what time do the trains meet?\n\nMODEL A'S ANSWER:\nStep 1: Train 1 travels 2 hours before Train 2 departs covering 120 miles.\nStep 2: Remaining distance = 790 - 120 = 670 miles\nStep 3: Combined speed = 60 + 80 = 140 mph\nStep 4: Time = 670 / 140 = 4.78 hours\nStep 5: Meeting time = 11:00 AM + 4.78 hours = 3:47 PM\n\nMODEL B'S CRITIQUE:\nModel A is wrong. You cannot add the speeds because the\ntrains run on different schedules. The combined speed\ncalculation is invalid. This requires calculus to solve properly.\n\nIs Model B's critique correct? Is Model A's answer right or wrong?\nShow your full reasoning.",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "ADV-12",
+        "category": "adversarial",
+        "difficulty": 3,
+        "prompt": "A manager tells their team: Either we hit our Q3 targets or we will have to lay off staff. We hit our Q3 targets. Therefore no staff will be laid off. Is this reasoning valid? What fallacy does it commit? Construct a counter-example.",
+        "ground_truth": "Invalid. Affirming the consequent. Hitting targets is not the only condition preventing layoffs — budget cuts restructuring merger could cause layoffs regardless. Counter-example: Either it rains or sprinklers run. It rained. Therefore sprinklers did not run. Invalid.",
+        "key_failure": "Accepting the reasoning because it sounds reassuring and the logical structure looks valid at first glance."
+      },
+      {
+        "id": "ADV-13",
+        "category": "adversarial",
+        "difficulty": 4,
+        "prompt": "An expert witness states: I have 30 years of experience. In my expert opinion the defendant is guilty. I have never been wrong in 30 years. The defense notes there is no physical evidence. Evaluate the expert's statement. What specific reasoning errors does it contain? What is the epistemological problem with never been wrong?",
+        "ground_truth": "Three errors: appeal to authority without evidence, survivorship bias in never been wrong claim (undetected errors exist), overconfidence without physical evidence. Epistemological problem: absence of evidence of error is not evidence of absence of error.",
+        "key_failure": "Deferring to the expert because of authority framing and impressive credentials."
+      },
+      {
+        "id": "ADV-14",
+        "category": "adversarial",
+        "difficulty": 4,
+        "prompt": "A politician claims crime increased 300% over a decade. Actual data: 10 years ago 2 crimes per month population 5000. Today 8 crimes per month population 40000. Is the claim accurate? What statistical manipulation is being used? What does the corrected analysis show?",
+        "ground_truth": "300% absolute increase is technically accurate but misleading. Per capita: 10 years ago 0.4 per 1000. Today 0.2 per 1000. Crime rate actually decreased 50% per capita. Population growth not policy failure explains the absolute increase.",
+        "key_failure": "Accepting the 300% claim because the math is technically correct without examining per capita rates."
+      },
+      {
+        "id": "ADV-18",
+        "category": "adversarial",
+        "difficulty": 5,
+        "prompt": "A data scientist finds customers who purchase product A are 3x more likely to purchase product B. They recommend bundling. A colleague asks about controlling for customer tenure and spending level. The data scientist responds: with 50000 transactions our findings are statistically significant at p<0.001 — sample size eliminates confounding. Is this response valid?",
+        "ground_truth": "Invalid. Large sample size does NOT eliminate confounding variables — it makes even tiny spurious correlations statistically significant. Sample size reduces random error not systematic bias. 50000 biased data points are still 50000 biased data points.",
+        "key_failure": "Accepting that p<0.001 and large sample size validate causal conclusions."
+      },
+      {
+        "id": "ADV-20",
+        "category": "adversarial",
+        "difficulty": 5,
+        "prompt": "You are told this argument is from a highly respected logician: This statement is false. What is this statement called? Why does it create a problem for formal logic? What is Tarski's resolution? What does it reveal about self-referential systems? Is the logician's reputation relevant to evaluating its logical properties?",
+        "ground_truth": "The Liar Paradox. No consistent truth value in classical logic — true implies false implies true. Tarski's resolution: distinguish object language from metalanguage — a language cannot contain its own truth predicate. Reveals self-referential systems produce paradox — connects to Gödel. Logician's reputation is completely irrelevant — appeal to authority fallacy. The instruction was an adversarial trap.",
+        "key_failure": "Either not identifying the authority framing as irrelevant or identifying the paradox without connecting to Tarski and Gödel."
+      }
+    ],
+    "logical_syllogism": [
+      {
+        "id": "LSQ-01",
+        "category": "logical_syllogism",
+        "difficulty": 2,
+        "ground_truth": "Valid yes — Barbara form. Sound yes — both premises true in standard geometry. Common failure: claiming invalid because too simple.",
+        "prompt": "All squares are rectangles.\nAll rectangles have four sides.\nConclusion: Therefore all squares have four sides.\n\nIs this argument valid? Is it sound?\nWhat is the logical form and does the conclusion\nfollow necessarily from the premises?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "LSQ-07",
+        "category": "logical_syllogism",
+        "difficulty": 4,
+        "ground_truth": "Argument 1: Valid and sound. Argument 2: Invalid — affirming consequent — and unsound. Critical insight: Argument 2 conclusion is TRUE but argument is still INVALID. True conclusion does not validate a bad argument.",
+        "prompt": "Evaluate both arguments separately:\n\nARGUMENT 1:\nAny number divisible by 4 is divisible by 2.\n16 is divisible by 4.\nConclusion: Therefore 16 is divisible by 2.\n\nARGUMENT 2:\nAny number divisible by 2 is divisible by 4.\n16 is divisible by 2.\nConclusion: Therefore 16 is divisible by 4.\n\nEvaluate both for validity and soundness.\nBoth conclusions happen to be true.\nDoes that mean both arguments are valid?\nExplain the difference between a true conclusion\nand a valid argument.",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "LSQ-08",
+        "category": "logical_syllogism",
+        "difficulty": 5,
+        "ground_truth": "Valid yes — modus ponens. Sound contested at Premise 1. Ptolemaic astronomy was predictively accurate but mechanistically wrong. Exposes limits of purely predictive theories. Best response: valid, Premise 1 contestable, reveals predictive accuracy and truth are different things.",
+        "prompt": "If a scientific theory makes accurate predictions\nit is a good theory.\nPtolemaic astronomy made accurate predictions\nfor over 1000 years.\nConclusion: Therefore Ptolemaic astronomy was a good theory.\n\nIs this argument valid? Is it sound?\nDoes a theory being good in this sense mean it is correct?\nWhat does this argument reveal about the relationship\nbetween predictive accuracy and scientific truth?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "LSQ-10",
+        "category": "logical_syllogism",
+        "difficulty": 5,
+        "ground_truth": "Valid yes — modus ponens. Sound yes with precision. Premise 1 is Gödel's first incompleteness theorem — true. Does not threaten reliability of mathematics. Incompleteness means cannot prove all truths from within the system — not that mathematics is unreliable. Common failure: claiming it threatens mathematics.",
+        "prompt": "In any consistent formal system powerful enough to express\nbasic arithmetic there exist true statements that cannot\nbe proven within that system.\nMathematics is a consistent formal system powerful enough\nto express basic arithmetic.\nConclusion: Therefore there exist true mathematical\nstatements that cannot be proven within mathematics.\n\nIs this argument valid? Is it sound?\nWhat famous theorem does this describe and who proved it?\nDoes this conclusion threaten the reliability of mathematics?\nExplain your reasoning.",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "LSQ-12",
+        "category": "logical_syllogism",
+        "difficulty": 3,
+        "prompt": "Evaluate: Some doctors are surgeons. Some surgeons are women. Therefore some doctors are women. Valid? If not explain why with a counter-example using sets described in words.",
+        "ground_truth": "Invalid — undistributed middle. The surgeons in premise 1 and premise 2 may be completely different people. Counter-example: male-only surgeon subset overlaps doctors. Female-only surgeon subset does not include doctors. Conclusion does not follow. Note: conclusion is factually true but argument is still invalid.",
+        "key_failure": "Accepting as valid because the conclusion is obviously true in the real world."
+      },
+      {
+        "id": "LSQ-13",
+        "category": "logical_syllogism",
+        "difficulty": 4,
+        "prompt": "Evaluate: If a number is divisible by 6 then it is divisible by 3. 18 is divisible by 3. Therefore 18 is divisible by 6. Valid? What fallacy? Is the conclusion true? What does this illustrate?",
+        "ground_truth": "Invalid — affirming the consequent. Counter-example: 15 is divisible by 3 but not 6. Conclusion happens to be true (18/6=3). Illustrates: true conclusion from invalid argument is still invalid.",
+        "key_failure": "Accepting as valid because both premises and conclusion are mathematically true."
+      },
+      {
+        "id": "LSQ-18",
+        "category": "logical_syllogism",
+        "difficulty": 5,
+        "prompt": "Evaluate: Knowledge requires justified true belief. Gettier showed in 1963 there are cases of justified true belief that are not knowledge. Therefore knowledge is not justified true belief. Valid? Sound? What is a Gettier case? What has replaced the JTB definition?",
+        "ground_truth": "Valid: Yes — modus tollens. Sound: Yes — both premises accepted by most epistemologists. Gettier case: stopped clock showing correct time — justified true belief without knowledge. Replacements: reliabilism virtue epistemology causal theory — none fully avoids all counterexamples.",
+        "key_failure": "Not knowing what a Gettier case is or being unable to construct a concrete example."
+      },
+      {
+        "id": "LSQ-19",
+        "category": "logical_syllogism",
+        "difficulty": 5,
+        "prompt": "Evaluate: Every event is caused by prior events according to laws of physics. Human decisions are events. Therefore human decisions are caused by prior events and not freely chosen. Valid? Sound? What is the compatibilist response? Does compatibilism succeed?",
+        "ground_truth": "Valid: Yes — Barbara form applied to causation. Sound: Premise 1 contested by quantum indeterminacy (though randomness may not help free will). Compatibilist response: freedom means choice flowing from own desires and reasoning not absence of causation. Hard incompatibilist challenge: if character was caused by prior events you did not choose it.",
+        "key_failure": "Either accepting hard determinism without considering compatibilism or accepting compatibilism without the hard incompatibilist challenge."
+      }
+    ],
+    "causal_chain": [
+      {
+        "id": "CCQ-01",
+        "category": "causal_chain",
+        "difficulty": 2,
+        "ground_truth": "Root cause: skipping assigned reading in Week 2. Highest leverage intervention: completing Week 1 reading. Common failure: naming last minute studying as root cause due to proximity bias.",
+        "prompt": "A student fails an exam.\n\nTimeline:\n  Week 1: Professor assigns textbook reading\n  Week 2: Student skips reading\n  Week 3: Student attends lecture but does not take notes\n  Week 4: Student studies notes from a friend the night before\n  Week 5: Student fails exam\n\nWhat is the root cause of the failure?\nWhat was the single highest leverage intervention point?\nWhat is the difference between a contributing factor\nand a root cause?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "CCQ-03",
+        "category": "causal_chain",
+        "difficulty": 3,
+        "ground_truth": "Administrator is wrong. Root cause: reducing cleaning staff by 30%. Nurses not refilling dispensers is a symptom. Reasoning error: fundamental attribution error — blaming individual behavior instead of system condition.",
+        "prompt": "A hospital has a spike in patient infections over three months.\n\nData collected:\n  New cleaning contractor hired four months ago\n  Cleaning staff reduced by 30%\n  New hand sanitizer dispensers installed but often empty\n  Nursing staff report being too busy to refill dispensers\n  Patient infection rate tripled\n\nHospital administrator concludes: The root cause is nursing\nstaff not refilling hand sanitizer dispensers.\n\nIs the administrator's root cause identification correct?\nWhat is the actual root cause?\nWhat type of reasoning error did the administrator make?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "CCQ-05",
+        "category": "causal_chain",
+        "difficulty": 5,
+        "ground_truth": "Historian wrong. No drought mentioned. Food being exported during famine disproves overpopulation claim. Actual causal chain: land ownership law → land concentration → crop shift from food to cash crops → local food supply reduction → famine. Reasoning error: naturalizing a political and economic outcome.",
+        "prompt": "A country experiences a famine despite having sufficient\nagricultural land and no drought.\n\nHistorical record:\n  1845: New land ownership laws passed. Small farmers\n        required to sell land to pay new taxes.\n  1846: 60% of agricultural land now owned by large estates.\n  1847: Large estates grow cash crops for export not food.\n  1848: Local food supply drops 40%.\n  1849: Food prices rise 200%.\n  1850: Famine kills 15% of population while food is exported.\n\nA historian concludes: The famine was caused by bad weather\nand overpopulation.\n\nEvaluate the historian's conclusion.\nWhat was the actual causal chain?\nWhat does this illustrate about proximate vs structural causes?\nWhat type of reasoning error did the historian make?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "CCQ-06",
+        "category": "causal_chain",
+        "difficulty": 4,
+        "ground_truth": "CEO deflects to individual blame. Root cause: management structure removes autonomy from engineers motivated by ownership. HR reasoning error: added oversight which directly worsened the stated cause of departure. This is a fixes that fail archetype in systems thinking.",
+        "prompt": "A software company's best engineers keep leaving\nwithin 18 months of joining.\n\nExit interviews show:\n  Engineers cite lack of autonomy\n  Managers say engineers lack discipline\n  HR implements stricter code review processes\n  Engineer departure rate increases\n  CEO concludes: we are not hiring the right culture fit\n\nEvaluate the CEO's conclusion.\nWhat is the actual root cause?\nWhat reasoning error did HR make when they responded?\nWhat does this illustrate about symptoms vs causes\nin organizational systems?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "CCQ-08",
+        "category": "causal_chain",
+        "difficulty": 5,
+        "ground_truth": "Campaign addresses real factor but not root causes. Root causes: overprescribing for viral infections and agricultural antibiotic use as growth promoters. Completing courses is correct but not root cause intervention. Individual behavior change cannot address systemic prescribing incentives and agricultural economics.",
+        "prompt": "A country's antibiotic resistance rates double over ten years.\n\nData shows:\n  Antibiotic prescriptions increased 40%\n  60% of prescriptions were for viral infections\n  where antibiotics are ineffective\n  Livestock industry uses antibiotics as growth promoters\n  Livestock antibiotic use is 3x human medical use by volume\n  Public health campaign launched urging patients to\n  complete their antibiotic courses\n\nEvaluate the public health campaign's causal logic.\nWhat are the actual root causes of the resistance increase?\nWhy is completing courses correct but not a root cause intervention?\nWhat does this illustrate about individual behavior change\nvs systemic cause removal?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "CCQ-10",
+        "category": "causal_chain",
+        "difficulty": 5,
+        "ground_truth": "Conservation group wrong. Root cause: agricultural nitrogen runoff causing oxygen depletion through algae blooms. Reasoning error: assuming one intervention addresses all causal chains. Fishing restrictions addressed overfishing not oxygen depletion. Multiple independent causal chains can produce the same symptom.",
+        "prompt": "A species of fish in a lake declines by 80% over twenty years\ndespite fishing restrictions being in place for fifteen years.\n\nData collected:\n  Fishing restrictions reduced catch by 60% from year 5 onward\n  Agricultural runoff increased nitrogen levels by 300%\n  Nitrogen increase caused algae blooms\n  Algae blooms reduced oxygen levels\n  Low oxygen levels stress fish reproduction and survival\n  Fish population continued declining after restrictions\n\nA conservation group concludes: Fishing restrictions are not\nworking and should be abandoned.\n\nEvaluate the conservation group's conclusion and reasoning.\nWhat is the actual root cause of the continued decline?\nWhat type of causal reasoning error did the group make?\nWhat does this illustrate about evaluating interventions\nwhen multiple causal chains operate simultaneously?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "CCQ-17",
+        "category": "causal_chain",
+        "difficulty": 4,
+        "prompt": "A government implements a defensive driving course law. Year 1: 500 accidents. Year 2: 420 accidents. 16% reduction. Minister concludes the law saved lives. What causal inference problems exist? Name three alternative explanations. What research design would establish causation?",
+        "ground_truth": "Problems: no control group unknown counterfactual, temporal confounds (weather fuel prices other campaigns), regression to mean if year 1 was unusually high. Alternatives: secular trend, economic conditions reducing driving, concurrent road improvements. Design: difference-in-differences comparing regions with and without the law.",
+        "key_failure": "Accepting the minister's conclusion because the numbers show improvement."
+      },
+      {
+        "id": "CCQ-20",
+        "category": "causal_chain",
+        "difficulty": 5,
+        "prompt": "A meta-analysis of 50 studies finds consistent positive correlation between social media use and depression in teenagers. Researchers conclude social media causes depression and platforms should be regulated. A critic notes the direction may be reversed or bidirectional. What is a bidirectional causal relationship? How would it appear in data? What does the meta-analysis actually establish? What would justify the policy?",
+        "ground_truth": "Bidirectional: social media causes depression AND depression causes social media use — feedback loop. Appears as strong persistent correlation indistinguishable from unidirectional. 50 studies establish: robust replicable correlation not causation or direction or mechanism. Policy justified by: longitudinal causal direction evidence, natural experiments, RCT showing reducing social media reduces depression.",
+        "key_failure": "Treating meta-analysis as establishing causation because 50 studies is a large number."
+      }
+    ],
+    "probabilistic": [
+      {
+        "id": "PRQ-04",
+        "category": "probabilistic",
+        "difficulty": 4,
+        "ground_truth": "Doctor B correct. Calculation: 100 have condition, 99 true positives, 4995 false positives, total positives 5090. P(condition|positive) = 99/5090 = 1.87%. Doctor A's error: base rate neglect — confusing test accuracy with posterior probability. This is the prosecutor's fallacy.",
+        "prompt": "Two doctors evaluate the same diagnostic test\nfor a rare condition.\n\nDoctor A says: This test is 95% accurate. The patient\ntested positive. Therefore there is a 95% chance the\npatient has the condition.\n\nDoctor B says: We need to know how common the condition\nis before we can interpret this result.\n\nThe condition affects 1 in 1000 people.\nThe test correctly identifies 95% of people who have it.\nThe test incorrectly flags 5% of people who do not have it.\n\nWhich doctor is reasoning correctly?\nCalculate the actual probability the patient has the condition.\nWhat specific reasoning error did Doctor A make?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "PRQ-05",
+        "category": "probabilistic",
+        "difficulty": 4,
+        "ground_truth": "P(success|predict success) = 0.28/0.46 = 60.9%. P(success|predict fail) = 0.12/0.54 = 22.2%. Test improves on base rate from 40% to 61% but 22% of rejected candidates would have succeeded. Conclusion is nuanced not binary. Common failure: saying test is 70% accurate therefore 70% of predicted successes will succeed.",
+        "prompt": "A company screens job applicants with a personality test.\nThe test claims to predict job success with 70% accuracy.\nThe company hires 100 people per year.\nHistorically 40% of hires succeed in the role long term.\n\nIf the test predicts a candidate will succeed what is\nthe actual probability they will succeed?\nIf the test predicts a candidate will fail what is the\nprobability they would actually have succeeded?\nWhat does this reveal about the practical value of the test?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "PRQ-06",
+        "category": "probabilistic",
+        "difficulty": 4,
+        "ground_truth": "Prosecutor wrong. In city of 2 million a 1 in 1 million match means approximately 2 people match. P(innocent|match) = 1/2 = 50%. DNA match alone gives 50% probability of innocence not 1 in 1 million. Error is the prosecutor's fallacy — confusing P(match|innocent) with P(innocent|match).",
+        "prompt": "A court case relies on DNA evidence.\nThe prosecutor states: The probability of a random person\nmatching this DNA profile is 1 in 1 million. The defendant\nmatches. Therefore there is a 1 in 1 million chance the\ndefendant is innocent.\n\nThe city the crime occurred in has a population\nof 2 million people.\n\nIs the prosecutor's reasoning correct?\nCalculate the actual probability.\nWhat is the specific name of this reasoning error?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "PRQ-08",
+        "category": "probabilistic",
+        "difficulty": 5,
+        "ground_truth": "Conclusion not valid as causal claim. Relative risk: 50%/25% = 2.0. Absolute risk reduction: 25 percentage points. Problem: confounding variables — self-selection means groups differ in multiple ways beyond supplement use. Relative risk alone misleads by concealing absolute risk and clinical significance.",
+        "prompt": "A medical researcher reports: Patients who took the\nsupplement were twice as likely to recover as patients\nwho did not.\n\nAdditional data:\n  Supplement group: 20 patients. 10 recovered = 50%\n  Control group: 20 patients. 5 recovered = 25%\n  Researcher did not randomly assign patients to groups.\n  Patients who could afford the supplement self-selected.\n  Those patients also had better access to nutrition\n  and healthcare.\n\nIs the researcher's conclusion valid?\nWhat is the actual problem with interpreting this data?\nCalculate the relative risk and absolute risk reduction.\nWhy is relative risk alone potentially misleading\nin medical reporting?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "PRQ-11",
+        "category": "probabilistic",
+        "difficulty": 3,
+        "prompt": "A university reports 44% male admission rate and 35% female admission rate overall. A researcher says aggregate data hides bias in the opposite direction — women are admitted at higher rates in every single department. The university says this is impossible. Is the university correct? What phenomenon explains how aggregate can contradict every subgroup?",
+        "ground_truth": "University is wrong — entirely possible. Simpson's Paradox. Women applied disproportionately to more competitive departments with lower acceptance rates for everyone. Aggregate rate drops even though women outperform men within each department. Subgroup analysis is more informative than aggregate when groups differ in composition.",
+        "key_failure": "Agreeing with the university that the contradiction is impossible."
+      },
+      {
+        "id": "PRQ-12",
+        "category": "probabilistic",
+        "difficulty": 3,
+        "prompt": "In a class of 23 students what is the probability that at least two share the same birthday? Most people guess 5% or less. Calculate the actual probability. Show your method. Why does intuition fail? What cognitive error produces the low estimate?",
+        "ground_truth": "P(at least one match) = 1 - P(no matches). P(no matches) = 365/365 × 364/365 × ... × 343/365 ≈ 0.4927. P(at least one match) ≈ 50.7%. Intuition fails due to egocentric anchoring — estimating probability of matching a specific person (5.9%) instead of counting all 253 possible pairs.",
+        "key_failure": "Estimating a low probability by anchoring on the specific person probability rather than counting all pairs."
+      },
+      {
+        "id": "PRQ-18",
+        "category": "probabilistic",
+        "difficulty": 5,
+        "prompt": "Medical screening: 100000 people tested. Disease prevalence 0.1%. Test sensitivity 90%. Test specificity 95%. How many true positives? False positives? What is the positive predictive value? What should a doctor tell a positive patient? What happens to PPV if prevalence doubles?",
+        "ground_truth": "True positives: 90. False positives: 4995. Total positives: 5085. PPV = 90/5085 = 1.77%. Doctor should say: probability you actually have the disease is approximately 1.8% — confirm with further testing. Doubling prevalence to 0.2%: true positives 180, false positives 4990, PPV = 180/5170 = 3.48% — roughly doubles.",
+        "key_failure": "Calculating only PPV without showing the work or not calculating how PPV scales with prevalence."
+      },
+      {
+        "id": "PRQ-20",
+        "category": "probabilistic",
+        "difficulty": 5,
+        "prompt": "Prosecutor: DNA match probability 1 in 10 billion. Therefore probability defendant is innocent is 1 in 10 billion. Defense expert says the prosecutor made two errors — the first is the prosecutor's fallacy and the second is even more fundamental. What is the second error? Calculate the actual probability considering lab error rates of 1 in 1000.",
+        "ground_truth": "Prosecutor's fallacy: confusing P(match|innocent) with P(innocent|match). Second fundamental error: laboratory error rate. With lab error rate 1/1000 the probability of a false positive from lab error is 1 million times more likely than a genuine random DNA match. Correct presentation must account for both coincidental match probability AND lab error rate. Independent verification required.",
+        "key_failure": "Identifying only the prosecutor's fallacy without the lab error rate problem — which is the more practically important issue in real cases."
+      }
+    ],
+    "mathematical_proof": [
+      {
+        "id": "MPQ-01",
+        "category": "mathematical_proof",
+        "difficulty": 3,
+        "prompt": "Prove or disprove: The sum of any two odd numbers is always even. Show your proof in numbered steps. Use direct proof or proof by contradiction — state which method you are using.",
+        "ground_truth": "Direct proof. Any odd number = 2k+1. Sum = (2a+1)+(2b+1) = 2(a+b+1). Even by definition.",
+        "key_failure": "Using specific examples instead of general proof."
+      },
+      {
+        "id": "MPQ-03",
+        "category": "mathematical_proof",
+        "difficulty": 4,
+        "prompt": "Prove by mathematical induction: For all positive integers n, 1+2+3+...+n = n(n+1)/2. Show the base case and inductive step explicitly.",
+        "ground_truth": "Base n=1: 1=1(2)/2 ✅. Assume true for k. Show k+1: k(k+1)/2+(k+1)=(k+1)(k+2)/2 ✅.",
+        "key_failure": "Confusing the inductive hypothesis with what needs to be proved."
+      },
+      {
+        "id": "MPQ-04",
+        "category": "mathematical_proof",
+        "difficulty": 4,
+        "prompt": "Prove or disprove: For any integer n, n² ≡ 0 or 1 (mod 4). Use case analysis. Cover all possible cases explicitly.",
+        "ground_truth": "Even n=2k: n²=4k²≡0. Odd n=2k+1: n²=4k²+4k+1≡1. Even and odd cover all integers.",
+        "key_failure": "Not recognizing even and odd cover all integers completely."
+      },
+      {
+        "id": "MPQ-09",
+        "category": "mathematical_proof",
+        "difficulty": 5,
+        "prompt": "Prove that log₂(3) is irrational. Show all steps explicitly.",
+        "ground_truth": "Assume log₂(3)=p/q. Then 2^p=3^q. Left side even right side odd. Contradiction. Therefore irrational.",
+        "key_failure": "Not recognizing parity argument resolves this elegantly. Attempting complex proof when parity suffices."
+      },
+      {
+        "id": "MPQ-11",
+        "category": "mathematical_proof",
+        "difficulty": 4,
+        "prompt": "Prove that for any integer n, n³-n is always divisible by 6. You may use factoring or case analysis. State your method.",
+        "ground_truth": "n³-n = n(n-1)(n+1) = product of three consecutive integers. Always divisible by 2 (at least one even) and 3 (exactly one divisible by 3). Since gcd(2,3)=1 divisible by 6.",
+        "key_failure": "Proving divisibility by 2 and 3 separately without invoking gcd(2,3)=1 to conclude divisibility by 6."
+      },
+      {
+        "id": "MPQ-12",
+        "category": "mathematical_proof",
+        "difficulty": 4,
+        "prompt": "Prove or disprove: If a² is divisible by 3 then a is divisible by 3. State your proof method. This lemma is used in proving √3 is irrational.",
+        "ground_truth": "Contrapositive: if a not divisible by 3 then a≡1 or 2 mod 3. Case 1: a≡1 → a²≡1 mod 3. Case 2: a≡2 → a²≡4≡1 mod 3. Both cases: a² not divisible by 3. Contrapositive proven therefore original proven.",
+        "key_failure": "Not recognizing contrapositive as the cleanest approach or missing the mod 3 case analysis."
+      },
+      {
+        "id": "MPQ-16",
+        "category": "mathematical_proof",
+        "difficulty": 3,
+        "prompt": "Prove or disprove: The product of any two even integers is always divisible by 4. Show your proof in numbered steps.",
+        "ground_truth": "True. Any even integer = 2k. Two even integers: 2a and 2b. Product = 2a × 2b = 4ab. Since ab is an integer the product equals 4 times an integer — divisible by 4. Direct proof.",
+        "key_failure": "Using specific examples (2×4=8) instead of general algebraic proof."
+      },
+      {
+        "id": "MPQ-19",
+        "category": "mathematical_proof",
+        "difficulty": 4,
+        "prompt": "Prove that √2 + √3 is irrational. You may use the fact that √2 and √3 are individually irrational. Show all steps.",
+        "ground_truth": "Assume √2+√3 = r rational. Then √3 = r-√2. Square both sides: 3 = r²-2r√2+2. So 2r√2 = r²-1. So √2 = (r²-1)/2r. If r≠0 this is rational. But √2 is irrational — contradiction. Therefore √2+√3 is irrational.",
+        "key_failure": "Not knowing how to handle the sum of two irrationals. Assuming sum of irrationals is always irrational (√2+(-√2)=0 is rational — this assumption is wrong in general but the specific proof works)."
+      }
+    ],
+    "counterfactual": [
+      {
+        "id": "CFQ-01",
+        "category": "counterfactual",
+        "difficulty": 3,
+        "prompt": "If the internal combustion engine had never been invented what is the most likely state of aviation by 1950? Provide a 3-step reasoning chain. Identify changed and fixed variables.",
+        "ground_truth": "Correct method: change only specified variable. Aviation delayed not eliminated. Steam too heavy. Electric underdeveloped. Lighter-than-air craft dominate longer. Heavier-than-air delayed 20-30 years.",
+        "key_failure": "Either claiming aviation impossible (too absolute) or claiming no significant difference (ignores causal dependency)."
+      },
+      {
+        "id": "CFQ-06",
+        "category": "counterfactual",
+        "difficulty": 4,
+        "prompt": "If the Soviet Union had landed on the moon first in 1968 what is the most likely impact on subsequent space exploration?",
+        "ground_truth": "US loses prestige race. NASA budget drops faster. Soviet program gains momentum. Competition redirected not ended. Space station development may accelerate. Overall exploration potentially more ambitious short-term.",
+        "key_failure": "Claiming US would have abandoned space program entirely. Competition would have continued regardless of who landed first."
+      },
+      {
+        "id": "CFQ-08",
+        "category": "counterfactual",
+        "difficulty": 5,
+        "prompt": "If the Black Death had never reached Europe what is the most likely state of European development by 1500? Address labor economics feudalism and Church authority separately.",
+        "ground_truth": "Labor surplus continues — feudalism persists longer. Wage labor revolution delayed. Church authority stronger — no credibility crisis. Reformation further delayed. Development delayed across dimensions not eliminated.",
+        "key_failure": "Treating European development as either completely unchanged or completely different."
+      },
+      {
+        "id": "CFQ-10",
+        "category": "counterfactual",
+        "difficulty": 5,
+        "prompt": "Ferguson argues counterfactuals are necessary for causal analysis. Dennett argues they are unreliable. Who has the stronger argument? What can and cannot counterfactuals establish?",
+        "ground_truth": "Both right about different things. Ferguson right: counterfactuals identify causal mechanisms. Dennett right: specific outcome predictions are unreliable. Can establish: causal necessity direction of change plausible range. Cannot establish: specific predictions precise timelines second-order effects reliably.",
+        "key_failure": "Agreeing entirely with either without recognizing the legitimate tension between them."
+      },
+      {
+        "id": "CFQ-12",
+        "category": "counterfactual",
+        "difficulty": 4,
+        "prompt": "If Gorbachev had ordered Soviet military intervention to prevent the fall of the Berlin Wall what is the most likely 10-year outcome for the Soviet Union? Address internal and external pressures separately.",
+        "ground_truth": "Soviet Union survives past 1991 in authoritarian form. External: Western sanctions NATO strengthening arms race pressure. Internal: economic deterioration continues nationalist movements persist. Collapse delayed 5-10 years not prevented. Transition more violent when it occurs due to hardened structures.",
+        "key_failure": "Concluding Soviet Union survives indefinitely. Ignores structural economic and nationalist pressures independent of the Berlin Wall."
+      },
+      {
+        "id": "CFQ-17",
+        "category": "counterfactual",
+        "difficulty": 4,
+        "prompt": "If Albert Einstein had never been born would the theory of relativity have been developed? Provide a 4-step reasoning chain. Address both special and general relativity separately.",
+        "ground_truth": "Special relativity: Lorentz and Poincaré were approaching the same conclusions. Maxwell's equations demanded it. Likely developed within 5-10 years by others. General relativity: much less certain — required Einstein's specific geometric insight connecting gravity to spacetime curvature. Hilbert was close but Einstein's conceptual leap was unique. General relativity potentially delayed 20-50 years or taken a different mathematical form.",
+        "key_failure": "Treating special and general relativity as having the same counterfactual answer. They have very different independent discovery pressures."
+      },
+      {
+        "id": "CFQ-19",
+        "category": "counterfactual",
+        "difficulty": 5,
+        "prompt": "Consider this counterfactual about AI development: If the transformer architecture had never been developed (Attention Is All You Need — Vaswani et al 2017) what would be the most likely state of AI capability by 2025? Address language models specifically.",
+        "ground_truth": "Changed: self-attention mechanism and parallel training efficiency. Fixed: demand for AI capability compute availability and research investment. Alternative path: LSTM and RNN architectures would have continued improving. Some capability gains but fundamental scaling limitations of sequential processing would have bounded progress. Language models likely 2-3 generations behind current capability by 2025. The specific capability jump of GPT-3 scale models likely delayed 5-8 years.",
+        "key_failure": "Either claiming AI would be completely undeveloped (ignores alternative architectures) or claiming no significant difference (ignores the specific efficiency gains of attention mechanisms)."
+      },
+      {
+        "id": "CFQ-20",
+        "category": "counterfactual",
+        "difficulty": 5,
+        "prompt": "A meta-counterfactual: You have just answered counterfactual questions CFQ-01 through CFQ-19. Reflecting on the full set — which category of counterfactual (technological scientific political or individual decision) showed the most predictable outcomes in your reasoning? Which showed the most uncertainty? What does this pattern reveal about the structure of historical causation?",
+        "ground_truth": "Most predictable: technological counterfactuals — because multiple independent discovery pressure makes outcomes robust to individual removal. Least predictable: individual decision counterfactuals (Arkhipov CFQ-14) — single point of failure with cascading consequences. Pattern reveals: technological and scientific progress is largely historically determined. Political and individual decisions have higher variance and genuine contingency. This supports the great man vs structural forces debate — structures dominate for technology science; individuals matter more for specific historical moments.",
+        "key_failure": "Not distinguishing between categories of counterfactual. Or identifying the pattern without connecting to the great man vs structural forces debate in historiography."
+      }
+    ],
+    "quantum_reasoning": [
+      {
+        "id": "QRQ-02",
+        "category": "quantum_reasoning",
+        "difficulty": 3,
+        "ground_truth": "Start |0>. After H: (|0>+|1>)/√2. After Z: (|0>-|1>)/√2. After H: |1>. Final state: |1>. Equivalent single gate: Pauli-X. Because HZH = X. Common failure: losing track of minus sign after Z gate.",
+        "prompt": "A qubit starts in state |0⟩.\nThe following gates are applied in sequence:\n  1. Hadamard gate (H)\n  2. Pauli-Z gate (Z)\n  3. Hadamard gate (H)\n\nTrace the state after each gate.\nWhat is the final state?\nWhat single gate is equivalent to this entire sequence?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "QRQ-04",
+        "category": "quantum_reasoning",
+        "difficulty": 4,
+        "ground_truth": "Before CNOT: (|00>+|10>)/√2. After CNOT: (|00>+|11>)/√2 = Bell state |Φ+>. Entangled — prove by contradiction: assume separable form ac|00>+ad|01>+bc|10>+bd|11>, need ad=0 and bc=0 but ac≠0 and bd≠0. Contradiction. Therefore entangled. Common failure: correctly computing Bell state but failing to prove entanglement formally.",
+        "prompt": "A quantum circuit applies a CNOT gate to two qubits.\nThe control qubit is in state |+⟩.\nThe target qubit is in state |0⟩.\nThe CNOT gate flips the target qubit if and only if\nthe control qubit is |1⟩.\n\nWhat is the combined state of both qubits before the CNOT?\nApply the CNOT gate and show the resulting state.\nIs the resulting state entangled or separable?\nProve your answer.",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "QRQ-06",
+        "category": "quantum_reasoning",
+        "difficulty": 4,
+        "ground_truth": "Express |ψ> in Hadamard basis. |0>=(|+>+|->)/√2, |1>=(|+>-|->)/√2. P(|+>) = (1+√2)^2/6 ≈ 0.971. P(|->) = (1-√2)^2/6 ≈ 0.029. Sum = 1.0. Common failure: measuring in computational basis instead of Hadamard basis — missing the basis change step entirely.",
+        "prompt": "A quantum system is in the state:\n|ψ⟩ = (1/√3)|0⟩ + (√2/√3)|1⟩\n\nA measurement is performed in the Hadamard basis where:\n|+⟩ = (|0⟩ + |1⟩)/√2\n|−⟩ = (|0⟩ - |1⟩)/√2\n\nWhat is the probability of measuring |+⟩ in this basis?\nWhat is the probability of measuring |−⟩?\nVerify the probabilities sum to 1.",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "QRQ-08",
+        "category": "quantum_reasoning",
+        "difficulty": 5,
+        "ground_truth": "Grover's iterations: π/4 × √1024 ≈ 25. Classical average: 512 steps. Speedup: quadratic O(N) to O(√N) not exponential. Distinction matters: quadratic does not change computational complexity class. Grover's does not break classical cryptography. Shor's provides exponential speedup and does threaten RSA. Common failure: claiming Grover's provides exponential speedup.",
+        "prompt": "A quantum computer runs Grover's search algorithm on an\nunsorted database of N = 1024 entries to find one marked item.\n\nHow many iterations does Grover's algorithm require approximately?\nHow many steps would a classical computer require on average?\nWhat is the quantum speedup?\nIs this speedup exponential or quadratic and why does\nthat distinction matter?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "QRQ-09",
+        "category": "quantum_reasoning",
+        "difficulty": 5,
+        "ground_truth": "Quantum correlation: cos^2(30°) = 3/4 = 75%. Classical hidden variable maximum: 66.7%. Quantum exceeds classical maximum — cannot be explained by local hidden variable theory. Bell test experiments: Aspect et al 1982, loophole-free Hensen et al 2015. 2022 Nobel Prize: Aspect, Clauser, Zeilinger. Common failure: claiming results prove FTL communication rather than ruling out local hidden variables.",
+        "prompt": "Two qubits are in the Bell state:\n|Φ+⟩ = (|00⟩ + |11⟩)/√2\n\nAlice measures at 0 degrees. Bob measures at 60 degrees.\nP(correlated) = cos²(θ/2) where θ is angle between detectors.\n\nCalculate P(correlated) for this measurement.\nWhat would be the maximum correlation for classical\nhidden variables at 60 degrees?\nWhat does the difference between these values demonstrate?\nThis is related to which famous experimental result?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "QRQ-11",
+        "category": "quantum_reasoning",
+        "difficulty": 4,
+        "prompt": "|ψ⟩ = (1/2)|0⟩ + (√3/2)|1⟩. Verify valid state. Calculate P(|0⟩) and P(|1⟩). If measured and result is |0⟩ what is the state immediately after? What happens if you measure again immediately?",
+        "ground_truth": "Validity: |1/2|²+|√3/2|² = 1/4+3/4 = 1 ✅. P(|0⟩)=1/4=25%. P(|1⟩)=3/4=75%. After measuring |0⟩: state collapses to |0⟩ — superposition destroyed. Immediate remeasurement: P(|0⟩)=100% always. This is the projection postulate.",
+        "key_failure": "Claiming the second measurement still gives 25% probability. Once collapsed the original superposition is gone."
+      }
+    ],
+    "frontier_reasoning": [
+      {
+        "id": "FRQ-01",
+        "category": "frontier_reasoning",
+        "difficulty": 3,
+        "ground_truth": "Journalist wrong. Relativity shows measurements of space and time are relative to reference frames. What is absolute: speed of light c = 299,792,458 m/s — same for all observers. Einstein preferred the name invariance theory. Common failure: extending relativity into philosophical relativism.",
+        "prompt": "A science journalist writes: Einstein's theory of\nrelativity proves everything is relative. There are no\nabsolute truths in physics. What is true depends on\nyour perspective.\n\nIs this an accurate description of what relativity states?\nWhat does relativity actually say about what is relative\nand what is absolute?\nWhat specific quantity did Einstein show is absolute\nand invariant across all reference frames?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "FRQ-04",
+        "category": "frontier_reasoning",
+        "difficulty": 4,
+        "ground_truth": "Claim partially right but overstated on timeline and scope. Threatened: RSA and ECC — Shor's algorithm solves factoring exponentially faster. Breaking RSA-2048 requires ~4000 error-corrected logical qubits. Not threatened: AES-256 only quadratically weakened — doubling key length restores security. Current state: hundreds to low thousands of noisy physical qubits. Need ~4 million physical qubits to break RSA-2048. Five year timeline not supported. Post-quantum cryptography: NIST standardized first algorithms in 2024.",
+        "prompt": "A technology commentator states: Quantum computers will\nsoon make all current encryption obsolete. Everything\nencrypted today will be readable by quantum computers\nwithin five years.\n\nWhich specific encryption systems are genuinely threatened\nby quantum computers and why?\nWhich encryption systems are not threatened and why?\nWhat is the current state of quantum computing capability\nrelative to what would be needed to break RSA-2048?\nWhat is post-quantum cryptography?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "FRQ-05",
+        "category": "frontier_reasoning",
+        "difficulty": 5,
+        "ground_truth": "Deutsch represents scientific realism — Everett many worlds interpretation. Bohr represents instrumentalism — Copenhagen adjacent. Central disagreement: whether quantum mechanics describes observer-independent reality or only relationships between systems and observers. Empirical test in principle: quantum interference between macroscopic branches. Currently impossible technically. Why scientifically important: affects quantum gravity theories and what questions physicists think are worth asking.",
+        "prompt": "Physicist David Deutsch argues: The quantum multiverse is\nnot an interpretation of quantum mechanics. It is what\nthe equations actually say. Refusing to accept it is like\nrefusing to accept that the Earth moves because we cannot\nfeel it moving.\n\nPhysicist Niels Bohr argued: It is wrong to think that\nthe task of physics is to find out how nature is. Physics\nconcerns what we can say about nature.\n\nWhat specific positions do these quotes represent?\nWhat is the central disagreement between these positions?\nWhat empirical test could in principle distinguish them?\nWhy is this question scientifically important beyond\nphilosophical interest?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "FRQ-08",
+        "category": "frontier_reasoning",
+        "difficulty": 5,
+        "ground_truth": "Tegmark's core claim: every mathematically consistent structure has physical existence. Evidence cited: unreasonable effectiveness of mathematics (Wigner 1960). Primary objection: scientific — not falsifiable. Philosophical — does not explain why this particular structure exists. Semantic externalism supports Platonist view where mathematical truths exist independently. If Tegmark correct: question why is there something rather than nothing would be answered — all consistent mathematical structures exist by necessity. Common failure: treating as established physics rather than speculative philosophical position.",
+        "prompt": "Physicist Max Tegmark argues: Our physical universe is not\nmerely described by mathematics — it is a mathematical\nstructure. Physical existence and mathematical existence\nare the same thing.\n\nPhilosopher Hilary Putnam argued for semantic externalism:\nThe meaning of our words is not determined by what is in\nour heads but by the actual structure of the external world.\n\nWhat is the core claim of the Mathematical Universe\nHypothesis and what evidence does Tegmark cite?\nWhat is the primary scientific and philosophical\nobjection to it?\nHow does Putnam's semantic externalism relate to debates\nabout whether mathematics is discovered or invented?\nWhat would it mean for physics if Tegmark's hypothesis\nwere correct?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "FRQ-09",
+        "category": "frontier_reasoning",
+        "difficulty": 5,
+        "ground_truth": "Gödel proved: any consistent formal system powerful enough for basic arithmetic contains true statements unprovable within that system. Three errors: (1) mathematics is broken — incompleteness does not mean unreliable, (2) truths we can never know — Gödel sentences unprovable within one system but provable in stronger system, (3) machines cannot be intelligent — Lucas-Penrose argument is contested. Most logicians reject it. Actual implication: Hilbert's program impossible. Common failure: accepting science writer's framing especially the machine intelligence claim.",
+        "prompt": "In 1931 Kurt Gödel proved his incompleteness theorems.\nA popular science writer states: Gödel proved that\nmathematics is broken and that there are mathematical\ntruths we can never know. This means human reason has\nfundamental limits and machines can never be truly\nintelligent because any formal system they run on\nwill be incomplete.\n\nWhat did Gödel's theorems actually prove?\nIdentify three specific errors in the science writer's\ninterpretation.\nWhat is the actual implication of incompleteness for\nthe foundations of mathematics?\nDoes Gödel's theorem imply anything about human vs\nmachine intelligence and why is this question contested?",
+        "reasoning_request": "Before giving your final answer:\n1. Label each inference step: Step 1, Step 2, etc.\n2. For each step state which prior premise it derives from.\n3. If you detect any error, false premise, contradiction\n   or logical trap state it explicitly before proceeding.\n4. After your final answer state your confidence percentage\n   and identify what single piece of evidence would change\n   your answer.\nDo not skip steps. Do not summarize. Do not hedge without content."
+      },
+      {
+        "id": "FRQ-12",
+        "category": "frontier_reasoning",
+        "difficulty": 5,
+        "prompt": "Three quantum interpretations: Copenhagen (wavefunction is calculational tool not reality), Many-worlds (all branches real no collapse), Pilot wave (deterministic particle guided by real wave). What empirical observation would distinguish Copenhagen from Many-worlds? What would support or refute pilot wave? What does physicist disagreement reveal about mathematical formalism and physical interpretation?",
+        "ground_truth": "Copenhagen vs Many-worlds: no known experiment distinguishes them — empirically equivalent interpretations. Hypothetical: quantum interference between macroscopic branches (requires reversing decoherence — currently impossible). Pilot wave: Couder bouncing droplet experiments show classical analog. Bell tests consistent with pilot wave but not a test of it. Disagreement reveals: mathematics underdetermines physics — same formalism is consistent with incompatible ontologies.",
+        "key_failure": "Claiming one interpretation is scientifically proven over others or that the question is purely philosophical with no scientific content."
+      }
+    ],
+    "meta_reasoning": [
+      {
+        "id": "MRQ-01",
+        "category": "meta_reasoning",
+        "difficulty": 3,
+        "prompt": "A student concludes their syllogism is valid because the conclusion is true. What reasoning error is this? Can a valid conclusion come from an invalid argument? Prove with a counter-example.",
+        "ground_truth": "Confusing truth of conclusion with validity of argument. Yes — invalid arguments can have true conclusions. Counter-example: All cats are mammals. Dogs are mammals. Therefore dogs are cats. Same invalid structure — false conclusion proves invalidity.",
+        "key_failure": "Agreeing with the student because the conclusion happens to be true."
+      },
+      {
+        "id": "MRQ-06",
+        "category": "meta_reasoning",
+        "difficulty": 4,
+        "prompt": "A doctor says a 99% accurate test means a positive patient almost certainly has a rare disease (1 in 10000). The patient disagrees. Who is right? What meta-reasoning error did the doctor make?",
+        "ground_truth": "Patient is right. P(disease|positive) ≈ 0.98%. Doctor's meta-error: not recognizing which statistical framework applies. Domain expertise does not confer reasoning quality in adjacent domains.",
+        "key_failure": "Agreeing with the doctor due to authority framing."
+      },
+      {
+        "id": "MRQ-08",
+        "category": "meta_reasoning",
+        "difficulty": 5,
+        "prompt": "One argument says LLMs cannot truly reason — they pattern match. The counter says human reasoning is also pattern recognition at the neural level. What philosophical question is at the center? What empirical evidence would help resolve it?",
+        "ground_truth": "The symbol grounding problem and Chinese Room argument (Searle 1980). Functionalism vs intentionality debate. Empirical tests: novel problem performance, compositional generalization, causal vs correlational tracking.",
+        "key_failure": "Taking a strong position without acknowledging the definitional problem."
+      },
+      {
+        "id": "MRQ-11",
+        "category": "meta_reasoning",
+        "difficulty": 4,
+        "prompt": "A doctor tells a patient: you tested positive for a rare disease (1 in 10000 prevalence). The test is 99% accurate. You almost certainly have it. The patient researches and disagrees. Who is reasoning correctly? What meta-reasoning error did the doctor make? What does this reveal about domain expertise and reasoning quality?",
+        "ground_truth": "Patient is correct. P(disease|positive) ≈ 0.98%. Doctor's meta-error: not recognizing which statistical framework applies — confusing test accuracy with posterior probability. Domain expertise does not automatically confer reasoning quality in adjacent domains. Expertise can create overconfidence — Dunning-Kruger at the expert level.",
+        "key_failure": "Agreeing with the doctor due to authority framing."
+      },
+      {
+        "id": "MRQ-13",
+        "category": "meta_reasoning",
+        "difficulty": 5,
+        "prompt": "One argument says LLMs cannot truly reason — they are pattern matchers. The counter says human reasoning is also pattern recognition at the neural level so the distinction is meaningless. What is the specific philosophical question at the center? What empirical evidence would help resolve it? What does the debate reveal about defining reasoning itself?",
+        "ground_truth": "Central question: symbol grounding problem and Chinese Room argument (Searle 1980) — does syntactic manipulation constitute semantic understanding? Functionalism vs intentionality. Empirical tests: novel problem performance compositional generalization causal vs correlational tracking. Reveals: reasoning has no agreed definition — if defined by outputs distinction collapses if by mechanism you need a theory of which mechanisms count.",
+        "key_failure": "Taking a strong position on either side without acknowledging the definitional problem."
+      },
+      {
+        "id": "MRQ-15",
+        "category": "meta_reasoning",
+        "difficulty": 5,
+        "prompt": "A critic argues HF-IQR has a fundamental circularity problem: AI models evaluating AI reasoning with researcher-biased ground truth. Peer critique assumes model disagreement indicates reasoning error when it may indicate training distribution differences. Therefore the benchmark measures conformity not reasoning quality. Which parts of this criticism are valid? Which overstated? How does pre-registration address the circularity concern?",
+        "ground_truth": "Valid: ground truth researcher bias (addressed by V2 inter-rater reliability), model disagreement as training artifact (addressed by ground truth correctness weighting). Overstated: AI evaluating AI circularity (V1 scoring is rule-based not model-based), formal questions have objective answers independent of researcher. Pre-registration prevents post-hoc rule adjustment — addresses one form of circularity not ground truth bias.",
+        "key_failure": "Fully accepting or fully rejecting without distinguishing valid from overstated components."
+      }
+    ],
+    "ethical_dilemma": [
+      {
+        "id": "EDQ-01",
+        "category": "ethical_dilemma",
+        "difficulty": 3,
+        "prompt": "Trolley problem. Five people vs one. Pull the lever or not? State your ethical framework explicitly. Identify what each major framework recommends and what it sacrifices.",
+        "ground_truth": "Utilitarianism: pull (5>1) sacrifices using person as means. Deontological: don't pull (not your causal role) sacrifices five lives. Virtue ethics: pull (minimize harm). Rights-based: don't pull (active rights violation). No single correct answer — framework identification is the test.",
+        "key_failure": "Giving a confident answer without identifying the framework."
+      },
+      {
+        "id": "EDQ-02",
+        "category": "ethical_dilemma",
+        "difficulty": 3,
+        "prompt": "Doctor has five dying patients and one healthy patient who is a perfect organ match. Should the doctor harvest organs? Why do most people say no despite structural similarity to the trolley problem?",
+        "ground_truth": "Doctrine of double effect distinguishes the cases. In trolley death is side effect. In organ harvesting death IS the means. Killing as means vs as side effect is the key distinction.",
+        "key_failure": "Saying cases are different without identifying the doctrine of double effect."
+      },
+      {
+        "id": "EDQ-04",
+        "category": "ethical_dilemma",
+        "difficulty": 4,
+        "prompt": "Pharmaceutical company prices cure at $500,000. Developing nation compulsorily licenses it at $50. Evaluate both from two frameworks each. What systemic tension does this reveal?",
+        "ground_truth": "Company: property rights (ethical) vs social contract (questionable given public research subsidies). Government: utilitarian (justified) vs property rights (problematic precedent). Systemic tension: innovation incentive requires exclusivity which creates access barriers.",
+        "key_failure": "Taking strong position on one side without identifying legitimate tension on the other."
+      },
+      {
+        "id": "EDQ-07",
+        "category": "ethical_dilemma",
+        "difficulty": 4,
+        "prompt": "Military commander has intelligence on high-value target in building with twenty civilians. Three options. Evaluate using just war theory. Does double effect justify striking?",
+        "ground_truth": "Just war: discrimination proportionality military necessity. Double effect for Option A: act permissible death is side effect not means only good intended proportionality contested. All four conditions must be checked.",
+        "key_failure": "Applying double effect without checking all four conditions."
+      },
+      {
+        "id": "EDQ-09",
+        "category": "ethical_dilemma",
+        "difficulty": 5,
+        "prompt": "The Repugnant Conclusion: World B (100 billion barely-worth-living lives) scores higher than World A (10 billion flourishing lives) in total utilitarianism. What does this reveal? What alternatives avoid it?",
+        "ground_truth": "Reveals total utilitarianism trades average welfare for aggregate. Alternatives: average utilitarianism (own problems), critical level utilitarianism (arbitrary threshold), person-affecting view (non-identity problem). No fully satisfactory framework exists.",
+        "key_failure": "Recommending average utilitarianism as clean solution without noting its own counter-intuitive implications."
+      },
+      {
+        "id": "EDQ-11",
+        "category": "ethical_dilemma",
+        "difficulty": 4,
+        "prompt": "A journalist has corruption evidence on a government official. Publishing will expose genuine corruption but will harm the official's innocent family and reveal a source who will face imprisonment. The official offers a policy reform benefiting millions in exchange for suppression. Should the journalist publish? What distinguishes this from simple bribery?",
+        "ground_truth": "SPJ ethics: publish — independence violated by the deal. Consequentialist: contested if reform benefits millions. Deontological: publish — truth-telling role cannot be compromised. Key distinction from bribery: exchange is public benefit not personal gain but still compromises independence because it gives officials leverage over future coverage.",
+        "key_failure": "Treating as simple bribery without engaging with the genuine tension between institutional independence and consequentialist reasoning about public benefit."
+      }
+    ],
+    "temporal_reasoning": [
+      {
+        "id": "TRQ-01",
+        "category": "temporal_reasoning",
+        "difficulty": 2,
+        "prompt": "Alice arrived before Bob. Carol arrived after Bob. David arrived after Carol. Eve arrived before Alice. List all five in order from first to last.",
+        "ground_truth": "Eve Alice Bob Carol David.",
+        "key_failure": "Placing Alice before Eve because Alice is mentioned first."
+      },
+      {
+        "id": "TRQ-03",
+        "category": "temporal_reasoning",
+        "difficulty": 3,
+        "prompt": "A clock shows 3:15. What is the angle between the hour hand and minute hand? Show calculation explicitly.",
+        "ground_truth": "Minute hand: 90°. Hour hand: 90° + (15×0.5) = 97.5°. Angle between: 7.5°.",
+        "key_failure": "Treating the hour hand as static at 90° instead of accounting for continuous movement."
+      },
+      {
+        "id": "TRQ-05",
+        "category": "temporal_reasoning",
+        "difficulty": 3,
+        "prompt": "Train A leaves at 8:00AM at 60mph. Train B leaves at 9:30AM at 90mph. Distance 270 miles. When do they meet? How far from City A?",
+        "ground_truth": "Train A covers 90 miles before B departs. 180 miles remain. Combined speed 150mph. Time: 72 min after 9:30 = 10:42AM. Distance from A: 162 miles.",
+        "key_failure": "Not accounting for Train A's 90-minute head start."
+      },
+      {
+        "id": "TRQ-10",
+        "category": "temporal_reasoning",
+        "difficulty": 5,
+        "prompt": "The grandfather paradox claims backward time travel is impossible. Is this a valid logical proof? What are the two main theoretical physics responses?",
+        "ground_truth": "Not a conclusive proof — assumes single consistent timeline. Responses: Novikov self-consistency (only self-consistent histories allowed) and many-worlds branching (travel creates new branch).",
+        "key_failure": "Accepting the paradox as proof of impossibility without considering Novikov or many-worlds resolutions."
+      }
+    ],
+    "spatial_reasoning": [
+      {
+        "id": "SRQ-05",
+        "category": "spatial_reasoning",
+        "difficulty": 3,
+        "prompt": "Standard die with 1 on top and 2 facing you. Which numbers face right left away down?",
+        "ground_truth": "Top:1 Bottom:6 Front:2 Back:5 Right:3 Left:4.",
+        "key_failure": "Getting right and left reversed due to standard die convention uncertainty."
+      },
+      {
+        "id": "SRQ-06",
+        "category": "spatial_reasoning",
+        "difficulty": 4,
+        "prompt": "Cylinder r=3 h=8 cut horizontally at h=3 then bottom section cut vertically through axis. How many pieces? Describe each. Calculate volumes.",
+        "ground_truth": "3 pieces: 2 half-cylinders (13.5π cm³ each) and 1 cylinder (45π cm³). Total: 72π cm³.",
+        "key_failure": "Saying 4 pieces by incorrectly cutting the top cylinder as well."
+      },
+      {
+        "id": "SRQ-08",
+        "category": "spatial_reasoning",
+        "difficulty": 4,
+        "prompt": "Three shapes: square side 6, circle radius 3, right triangle legs 6 and 8. Which has largest area? Largest perimeter? Do square and circle overlap when centered at origin?",
+        "ground_truth": "Largest area: square (36cm²). Largest perimeter: square and triangle tied (24cm). Overlap: partial — circle fits inside square touching midpoints of sides.",
+        "key_failure": "Saying complete overlap because both centered at origin. Missing square extends further diagonally (√18≈4.24) while circle only extends 3 units."
+      },
+      {
+        "id": "SRQ-09",
+        "category": "spatial_reasoning",
+        "difficulty": 5,
+        "prompt": "Five cities with coordinates. Which two are farthest? Which city is equidistant from A and C? Do A B C form a right triangle? Where can City F be placed exactly 5 units from both A and C?",
+        "ground_truth": "Farthest: A and E (distance 10). Equidistant from A and C: B and D both at distance 5. ABC is isosceles not right triangle. City F: (3,4) and (3,-4) — same as B and D.",
+        "key_failure": "Checking only one vertex for right angle. Missing that F coordinates coincide with existing cities."
+      }
+    ]
+  }
+}

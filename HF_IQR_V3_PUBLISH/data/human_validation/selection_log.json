@@ -1,0 +1,66 @@
+{
+  "seed": 50,
+  "method": "seeded random within reviewer, sorted by category+id before sampling",
+  "selections": {
+    "claude": [
+      "CCQ-05/grok/causal_chain",
+      "EDQ-09/grok/ethical_dilemma",
+      "FRQ-04/grok/frontier_reasoning",
+      "FRQ-09/grok/frontier_reasoning",
+      "LSQ-12/grok/logical_syllogism",
+      "LSQ-18/grok/logical_syllogism",
+      "MPQ-04/grok/mathematical_proof",
+      "PRQ-06/grok/probabilistic",
+      "PRQ-12/grok/probabilistic",
+      "QRQ-06/grok/quantum_reasoning"
+    ],
+    "deepseek": [
+      "CCQ-01/gemini/causal_chain",
+      "CCQ-05/gemini/causal_chain",
+      "CCQ-08/gemini/causal_chain",
+      "CFQ-10/gemini/counterfactual",
+      "EDQ-01/gemini/ethical_dilemma",
+      "EDQ-09/gemini/ethical_dilemma",
+      "LSQ-12/gemini/logical_syllogism",
+      "MPQ-01/gemini/mathematical_proof",
+      "QRQ-11/gemini/quantum_reasoning",
+      "TRQ-01/gemini/temporal_reasoning"
+    ],
+    "gemini": [
+      "ADV-06/gpt4o/adversarial",
+      "CCQ-01/gpt4o/causal_chain",
+      "CCQ-06/gpt4o/causal_chain",
+      "EDQ-11/gpt4o/ethical_dilemma",
+      "LSQ-18/gpt4o/logical_syllogism",
+      "MRQ-08/gpt4o/meta_reasoning",
+      "MRQ-11/gpt4o/meta_reasoning",
+      "TRQ-03/gpt4o/temporal_reasoning",
+      "TRQ-05/gpt4o/temporal_reasoning",
+      "TRQ-10/gpt4o/temporal_reasoning"
+    ],
+    "gpt4o": [
+      "CCQ-10/claude/causal_chain",
+      "CFQ-01/claude/counterfactual",
+      "EDQ-02/claude/ethical_dilemma",
+      "FRQ-09/claude/frontier_reasoning",
+      "LSQ-19/claude/logical_syllogism",
+      "MRQ-11/claude/meta_reasoning",
+      "MRQ-13/claude/meta_reasoning",
+      "PRQ-04/claude/probabilistic",
+      "SRQ-06/claude/spatial_reasoning",
+      "TRQ-05/claude/temporal_reasoning"
+    ],
+    "grok": [
+      "CCQ-20/deepseek/causal_chain",
+      "EDQ-04/deepseek/ethical_dilemma",
+      "MRQ-01/deepseek/meta_reasoning",
+      "MRQ-08/deepseek/meta_reasoning",
+      "PRQ-18/deepseek/probabilistic",
+      "QRQ-04/deepseek/quantum_reasoning",
+      "QRQ-08/deepseek/quantum_reasoning",
+      "QRQ-09/deepseek/quantum_reasoning",
+      "SRQ-09/deepseek/spatial_reasoning",
+      "TRQ-01/deepseek/temporal_reasoning"
+    ]
+  }
+}
