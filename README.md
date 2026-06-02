@@ -6,6 +6,7 @@
 [![Pre-registered](https://img.shields.io/badge/Pre--registered-OSF%20yhk98-orange)](https://osf.io/yhk98)
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
 [![Responses](https://img.shields.io/badge/Responses-2398-purple)](https://github.com/billyrdavis1985-bot/HF-IQR-V3)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/billyrdavis1985-bot/HF-IQR-V3/blob/main/HF_IQR_V3_Council_Run.ipynb)
 
 **Researcher:** Billy Davis | Independent Researcher | Lenoir, NC
 **Version:** 3.0 | **Date:** June 2026
