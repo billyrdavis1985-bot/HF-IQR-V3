@@ -1,5 +1,7 @@
 # HF-IQR V3: Hudson Forge Intelligence and Reasoning Benchmark — Version 3
 
+<img width="1536" height="1024" alt="V3 image 2" src="https://github.com/user-attachments/assets/40e432c1-310c-47ca-8df1-665aa57f9147" />
+
 [![License](https://img.shields.io/badge/License-Apache%202.0-green)](https://opensource.org/licenses/Apache-2.0)
 [![Pre-registered](https://img.shields.io/badge/Pre--registered-OSF%20yhk98-orange)](https://osf.io/yhk98)
 [![Python](https://img.shields.io/badge/Python-3.12-blue)](https://www.python.org/)
